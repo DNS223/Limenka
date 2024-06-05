@@ -1,0 +1,67 @@
+.etiqueta1{
+position: relative;
+    padding: 8px 12px;
+    margin-bottom: 17px;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 171, 10);
+    width: 40%;
+    margin-top: 20px;
+}
+.etiqueta1::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: " a";
+    background: linear-gradient(90.27deg, rgb(255, 181, 69) 2.18%, rgba(255, 181, 69, 0) 99.77%);
+    opacity: 0.2;
+    border-radius: 30px;
+}
+
+.etiqueta2{
+    position: relative;
+    padding: 8px 12px;
+    margin-bottom: 17px;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(101, 203, 123);
+    width: 56%;
+    }
+.etiqueta2::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+     height: 100%;
+    content: "";
+     background: linear-gradient(90.27deg, rgb(101, 203, 123) 2.18%, rgba(101, 203, 123, 0) 99.77%);
+     opacity: 0.2;
+    border-radius: 30px;
+    }
+
+.etiqueta3{
+    position: relative;
+    padding: 8px 12px;
+    margin-bottom: 17px;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(98, 95, 251);
+    width: 70%;
+    }
+.etiqueta3::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(90.27deg, rgb(98, 95, 251) 2.18%, rgba(98, 95, 251, 0) 99.77%);
+    opacity: 0.2;
+    border-radius: 30px;
+    }
+

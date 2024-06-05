@@ -1,0 +1,92 @@
+.container{
+    background-color: rgb(238, 238, 245);
+    padding-top: 30px;
+}
+.column{
+width: 25%;
+padding-right: 20px;
+}
+.row{
+    display: flex;
+}
+.footerLogo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(89, 91, 98);
+    padding-bottom: 10px;
+}
+
+
+.segunda ul{
+    list-style: none;
+}
+
+.segunda ul li{
+    margin-bottom: 10px;
+    color: rgb(89, 91, 98);
+
+}
+.segunda ul li a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.segunda ul li:hover{
+    color: rgb(96, 14, 228);
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+
+.medioContact p{
+    margin-left: 10px;
+}
+.medioContact{
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(79, 80, 85);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.title{
+    color: rgb(32, 33, 36);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.iconsLink{
+    color: rgb(89, 91, 98);
+    display: flex;
+}
+.iconsLink div{
+    margin-right: 7px;
+}
+.iconsLink div:hover{
+    color: rgb(96, 14, 228);
+}
+.copyRight{
+    border-top: 1px solid rgb(223, 223, 234);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 15px;
+    color: rgb(95, 99, 104);
+}
+
+@media (max-width:375px) {
+    .container{
+        display: none;
+    }
+}

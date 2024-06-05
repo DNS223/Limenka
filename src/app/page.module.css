@@ -1,0 +1,313 @@
+.first{
+  background-color: rgb(238, 238, 245);
+  width:100%;
+  height: auto;
+  display: flex;
+}
+.textFirst{
+  position: relative;
+  left: 14%;
+  top: 13vh;
+  width: 90%;
+  margin-right: 300px;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    overflow: hidden;
+    font-family: 1.17em;
+    color: rgb(0, 2, 41);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.parrafo{
+  width: 40%;
+  position: absolute;
+  left: 14%;
+  top: 80vh;
+  margin-top: 20px;
+  color: rgb(95, 99, 104);
+}
+.btnDemostracion{
+  height: 60px;
+  width: 20%;
+  left: 13%;
+  top: 90vh;
+  margin-top: 30px;
+  margin-bottom: 20px;
+    line-height: 60px;
+    border-radius: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    padding: 0px 35px;
+    font-weight: 600;
+    font-size: 16px;
+    background: white;
+    transition: all 1s ease 0s;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 2, 41);
+}
+
+.imgContainer{
+  mask-image: url(../../public/hero-transparent.svg);
+    height: 100%;
+    width: 100%;
+    mask-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    
+}
+.imgShape{
+  position: relative;
+  top: 0;
+}
+
+.second{
+  margin-top: 5%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.secondTitle{
+  color: rgb(0, 2, 41);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.third{
+  display: flex;
+}
+.thirdLeft{
+  width: 50%;  
+  background: rgb(96, 14, 228);
+}
+.textsLeft{
+  padding: 5% 5%  5% 2% ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+}
+.subtitle{
+  font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.subtitle2{
+  font-weight: 200;
+  font-size: 45px;
+  line-height: 1.2;
+  color: white;
+  letter-spacing: -0.03em;
+
+}
+.subtitle2 span{
+  font-weight: 700;
+}
+
+.textSub{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: white;
+  margin-top: 16px;
+}
+.thirdLeftBtn{
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 60px;
+  
+  width: 90%;
+  background-color: rgb(255, 206, 90);
+  border: none;
+  color: rgb(51, 51, 102);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.thirdRight{
+  display: grid;
+  grid-template-columns: 25vw 25vw ;
+  grid-template-rows: 50% 50%;
+}
+
+.fourth{
+  display: flex;
+  padding-top: 60px;
+}
+.fourthTitle{
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.1;
+  margin-bottom: 0px;
+  padding-right: 10%;
+}
+.fourthLeft{
+  width: 50%;
+
+}
+.fourthTitle span{
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 400;
+  width: 100%;
+}
+
+.fourthText{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(95, 99, 104);
+  margin-top: 16px;
+}
+.fourthLeftTexts{
+  display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+   
+}
+.fourthRight{
+  padding-left: 60px;
+}
+.fourthRightImg{
+  width: 500px;
+  height: 500px;
+}
+
+.subImg{
+  position: absolute;
+  animation: 1s ease 0s infinite alternate none running tpupdown;
+  margin-top: -9%;
+}
+
+@keyframes tpupdown {
+
+  0%{
+    transform: translateY(0px);
+  }
+
+100% {
+    transform: translateY(-20px);
+}
+}
+
+
+.bolaMorada{
+  position: absolute;
+  top: 14%;
+  left: -3%;
+  animation: 9s linear 0s infinite normal none running moving;
+}
+.bolaAmarilla{
+  position: absolute;
+  top: 27%;
+  left: 3%;
+  animation: 18s ease 0s infinite normal none running movingleftright1;
+}
+@keyframes movingleftright1 {
+  
+0% {
+    transform: translateX(0px) translateY(0px);
+}
+
+40% {
+    transform: translateX(50px) translateY(-50px);
+}
+
+75% {
+    transform: translateX(200px);
+}
+
+100% {
+    transform: translateY(0px) translateX(0px);
+}
+}
+@keyframes moving {
+  0% {
+    transform: translateY(0px);
+}
+
+25% {
+    transform: translateX(20px);
+}
+50% {
+    transform: translateY(-20px);
+}
+75% {
+    transform: translateX(-20px);
+}
+100% {
+    transform: translateY(0px);
+}
+}
+
+@media (min-width: 1920px) {
+  .parrafo{
+    top: 50vh;
+    width: 30%;
+    font-size: 20px;
+  }
+  .btnDemostracion{
+    top: 55vh;
+  }
+  .first{
+    height: 65vh;
+  }
+  .imgContainer{
+    position: relative;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .parrafo{
+    top: 52vh;
+    width: 30%;
+    font-size: 20px;
+  }
+  .btnDemostracion{
+    top: 62vh;
+  }
+  .first{
+    height: 75vh;
+  }
+  .imgContainer{
+    position: relative;
+    width: 700px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container{
+    display: none;
+  }
+  .parrafo{
+    top: 52vh;
+    width: 30%;
+    font-size: 20px;
+  }
+  .btnDemostracion{
+    top: 62vh;
+  }
+  .first{
+    height: 75vh;
+  }
+  .imgContainer{
+    position: relative;
+    width: 700px;
+  }
+}
