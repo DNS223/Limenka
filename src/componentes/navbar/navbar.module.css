@@ -9,19 +9,26 @@
 .header img{
     margin: 15px;
 }
+.logoMenu{
+  display: none;
+}
 .secciones{
-   margin-left: 17%;
+   margin-left: 14%;
    margin-top: 2%;
+   width: 40%;
 }
 .secciones2{
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 1%;
-
+    width: 40%;
     
  }
  .linkMenu{
   display: none;
  }
+ .menuIcon {
+  display: none;
+}
  .icon{
     position: relative;
     top: 10px;
