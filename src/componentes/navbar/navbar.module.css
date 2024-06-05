@@ -19,7 +19,9 @@
 
     
  }
-
+ .linkMenu{
+  display: none;
+ }
  .icon{
     position: relative;
     top: 10px;
